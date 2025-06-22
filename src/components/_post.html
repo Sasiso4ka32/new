@@ -1,5 +1,5 @@
 <div class="post">
-    <picture >
+    <picture>
         <source srcset="@@img-sm.webp" media="(max-width: 480px)">
         <source srcset="@@img-lg.webp" media="(max-width: 800px)">
         <img src="@@img.webp" alt="@@alt" class="card__image">
@@ -14,10 +14,13 @@
                 <img src="./assets/images/ci_tag.webp" alt="icon">
                 <p>@@date</p>
             </div>
+            @@if (isTrue) {
             <div>
                 <img src="./assets/images/ci_tag.webp" alt="icon">
                 <p>@@category</p>
             </div>
+            }
+
         </div>
         <div class="post__title">
             <h3>@@title</h3>

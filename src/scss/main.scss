@@ -13,6 +13,8 @@
 @use 'components/button';
 @use 'components/card';
 @use 'components/post';
+// ==== 5. pages ====
+@use 'pages/firstPage';
 
 body {
   background-color: var(--main-color);

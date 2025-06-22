@@ -1,5 +1,5 @@
 :root{
-
+  --container-max-width: 1200px;
   /**  Отступы  */
   --gap-xl: 20px;
   --gap-l: 15px;
@@ -15,4 +15,10 @@
 
   /**  Шрифты */
   --font-family-title: "Open Sans";
+
+  /**  Отступы кнопки */
+  --btn-padding: 20px 10px;
+
+  --primary-color: gray;
+
 }
